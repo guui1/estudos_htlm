@@ -6,23 +6,72 @@
     <title>formulaios</title>
 </head>
 <body>
-    <h1>Formularios</h1>
+    <h1>Formulario</h1>
     <br>
 <form> <!--Tag para declarar um formulario-->
     <label for="meu_amor">Qual o nome do meu amor ?</label> <br><!--Legenda de cima-->
-    <input id="meu_amor" type="text" placeholder="Digite aqui o nome"> <!--Declarando a caixa de entrada e a marca d`agua-->
+    <input id="meu_amor" type="text" placeholder="Digite aqui o nome"required> <!--caixa de entrada tipo texto simples e a marca d`agua-->
 
-    <br><br>
-    <label for="minha_linda">Ela è muito linda mesmo ?</label> <br><!--legenda-->
-    <input id="minha_linda" type="text" placeholder="Extraordinaria"><!--declaração-->
+    <br><br> <!--legenda-->
+    <label for="minha_linda">Ela è muito linda mesmo</label> 
+    <input id="minha_linda" type="checkbox" required>  <!--caixa de marcação-->
 
-    <br><br>
+    <br><br><!--legenda-->
     <label for="senha">Qual a senha do meu coração </label><br>
     <input id="senha" type="password" placeholder="Digite sua senha">
-    <br><br>
-    <label for="emal">Digite seu email</label><br>
-    <input type="email" id="emal" placeholder="Digite o seu email">
 
+    <br><br>
+
+    <label for="emal">Digite seu email</label><br> <!--formulario email-->
+    <input type="email" id="emal" placeholder="Digite o seu email">
+    
+    <br><br>
+    
+    <h4>Eu amo muito a minha bebê:</h4>
+<!--Tipo radio para selecionar apenas uma opção-->
+    <input type="radio" name="amor" value="muito" id="muito">
+    <label for="muito">Muito</label>
+
+    <input type="radio" name="amor" id="muitissimo" value="muitissimo">
+    <label for="muitissimo">Muitissimo</label>
+
+    <input type="radio" name="amor" id="conta" value="correto" required>
+    <label for="demais da conta">Demais da conta</label>
+
+
+    <br><br>
+
+
+    <h4>Oque è mais encantador na minha bebê:</h4>
+    <!--checkbox para selecionar multiplas escolhas-->
+    <input type="checkbox" name="Olhos" id="eyes">
+    <label for="eyes">Olhos</label>
+
+    <input type="checkbox" name="boca" id="boca">
+    <label for="boca">Boca</label>
+
+    <input type="checkbox" name="cabelos" id="cabelos">
+    <label for="cabelos">Cabelos</label>
+
+    <br><br>
+
+<select name="numbers"><!--campo do tipo select para selecionar uma opição na combobox-->
+
+<option selected disabled>Selecione uma opção</option>
+<option value="Esta">Esta</option>
+<option value="ota">outra?</option>
+<option value="talvez">talvez Esta</option>
+<option value="pode">pode ser essa?</option>
+<option value="tanto faz">boa sorte</option>
+
+</select>
+
+    <br><br><!--campo do tipo area de texto, para o usuario escrever textos longos-->
+    <textarea name="declaração" placeholder="De sua declaração aqui" rows="5" cols="30"></textarea>
+
+    <br><br>
+
+    <input type="submit" value="Enviar Arquivo">
 
 </form>
 
