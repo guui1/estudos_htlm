@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #ccc;
+}
+p{
+   text-align: center;
+    color: rgb(80, 80, 80);
+    margin-bottom: 20px;
+}
+.topo{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(205, 240, 240);
+    margin:5px 0px 10px; 
+     padding: 30px 70px 20px 10px;
+    word-spacing: 2px;
+}
+.font{
+font-size: 110%;
+font-family: "Playwrite NL", cursive;
+font: weight 900px;
+}
+
+.botao{
+    margin-left: 40%;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.teste{
+    max-width: 100%;
+    background-color: aquamarine;
+}
+#rodape{
+    color: rgb(212, 212, 125);
+    background-color: #b4b3b3;
+    height: 150px;
+}
+
+a.botao1{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 6px solid greenyellow;
+    border-radius: 6px;
+}
+a.botao1:hover{
+    background-color: rgb(8, 163, 8);
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+    border: 5px solid rgb(181, 247, 81);
+    border-radius: 6px;
+}
+
+a.botao2{
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid rgb(0, 0, 0);
+}
+a.botao2:hover{
+    color: white;
+    background-color: black;
+    padding: 9px;
+}
+
+a.botao3{
+    color: black;
+    text-decoration: none;
+
+}
+a.botao3:hover{
+    font-size: 15px;
+    color: rgb(47, 0, 255);
+    border-bottom:3px solid black;
+    font-weight: bold;
+}
+a.botao4{
+    background-color:aqua;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 10px;
+    text-decoration: none;
+}
+a.botao4:hover{
+    background-color:aqua;
+    padding: 11px 8px;
+    border-radius: 5px;
+    border: 10px;
+    text-decoration: none;
+}
+a.botao5{
+cursor: alias;
+}
